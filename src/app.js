@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 // public static path = this is the path for our index.html express.static() is used for handling static(html) files. 
 const static_path = path.join(__dirname, "../public");
