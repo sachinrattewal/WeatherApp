@@ -184,7 +184,7 @@ body{
     margin: auto;
 }
 footer{
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -222,10 +222,10 @@ footer p{
         width: auto;
     }
     .tempInfo{
-        width: auto;
+        width: 80%;
     }
     .main_layer .middle_layer p, .main_layer .middle_layer .fa{
-        font-size: 4rem;
+        font-size: 3.6rem;
         font-weight: 900;
     }
     footer{
