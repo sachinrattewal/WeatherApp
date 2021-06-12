@@ -35,9 +35,8 @@ const getInfo = async(event) =>{
                 temp_status.innerHTML = "<i class='fas fa-rain' style ='color: #a4b0be;'></i>";
             }
             else{
-                temp_status.innerHTML = "<i class='fas fa-cloud' style = 'color: #f1f2f6;'></i>";
+                temp_status.innerHTML = "<i class='fas fa-cloud-rain' style = 'color: #f1f2f6;'></i>";
             }
-            
             
             datahide.classList.remove('data_hide');
 
