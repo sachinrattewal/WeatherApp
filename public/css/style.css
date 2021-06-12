@@ -184,7 +184,7 @@ body{
     margin: auto;
 }
 footer{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -230,6 +230,7 @@ footer p{
     }
     footer{
         margin-top: auto;
+        margin-bottom: auto;
     }
 }
 /* error page styling */
