@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerlinks}}
+</head>
+<body>
+   {{>navbar}}
+
+   <!-- main header -->
+   <div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+                <figure class="error">
+                    <img src="images/404error.jpg" alt="Sachin" class="img-fluid" title="myphoto">
+                </figure>
+             
+                <p>You have entered a wrong URL</p>
+                <h1>{{errorMsg}}</h1>
+                <a href="/"><button>Go Back</button></a>
+            </div>
+        </div>
+            <!-- right side div -->
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- footer -->
+  {{>footer}}
+</body>
+</html>
