@@ -214,6 +214,11 @@ footer p{
         height: auto;
         margin-top: 3rem;
     }
+    .main_header_left h1{
+        font-size: 20px;
+        text-transform: none;
+        text-align: center;
+    }
     .main_header_right{
         height: auto;
         margin-top: 3rem;
