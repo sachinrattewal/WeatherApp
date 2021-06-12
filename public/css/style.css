@@ -225,6 +225,9 @@ footer p{
         font-size: 4rem;
         font-weight: 900;
     }
+    footer{
+        margin-top: auto;
+    }
 }
 /* error page styling */
 .error{
